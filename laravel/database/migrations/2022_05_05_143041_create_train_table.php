@@ -26,6 +26,7 @@ class CreateTrainTable extends Migration
             $table->boolean('in_orario');//presumo buleano si o no, 1 o 0
             $table->boolean('cancellato');//buleano si o no
             $table->string('scopo',100);//aggiunto, tipo trsporto merci o persone
+            $table->date('data');
         });
     }
 
