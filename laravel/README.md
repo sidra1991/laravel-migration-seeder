@@ -15,11 +15,14 @@
         cancellato | boolean
         scopo | string(20)
         data_viagio | date
-    **model**
+1. **create DB**
+1. **update of .env file**
+
+1. **model**
     - ????
-    **controller**
+1. **controller**
     - ?????
-    **migration**
+1. **migration**
     - create_train_table
-    **seeder**
+1. **seeder**
     - ????
