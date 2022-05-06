@@ -23,6 +23,6 @@
 1. **controller**
     - trainController
 1. **migration**
-    - create_trains_table
+    - create_train_table
 1. **seeder**
     - trainSeeder.php
