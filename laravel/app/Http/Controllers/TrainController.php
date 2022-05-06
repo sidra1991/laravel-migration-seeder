@@ -14,28 +14,9 @@ class TrainController extends Controller
      */
     public function index()
     {
-        //
-    }
+        $trains = train::all();
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
+        return view('listng',compact('train') );
     }
 
     /**
@@ -48,38 +29,3 @@ class TrainController extends Controller
     {
         //
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\train  $train
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(train $train)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\train  $train
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, train $train)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\train  $train
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(train $train)
-    {
-        //
-    }
-}

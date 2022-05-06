@@ -19,10 +19,10 @@
 1. **update of .env file**
 
 1. **model**
-    - ????
+    - train
 1. **controller**
-    - ?????
+    - trainController
 1. **migration**
-    - create_train_table
+    - create_trains_table
 1. **seeder**
-    - ????
+    - trainSeeder.php
